@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>The Bois Suppliment</name>
+		<description>Supplimental material for the Friday games</description>
+		<author url="https://axel669.net">Axel</author>
+		<update version="0.1.0">
+			<file name="the-bois-suppliment.index" url="https://raw.githubusercontent.com/axel669/the-bois-suppliment/live/the-bois-suppliment.index" />
+		</update>
+	</info>
+	<files>
+		<file name="tashas.xml" url="https://raw.githubusercontent.com/axel669/the-bois-suppliment/live/tashas.xml" />
+		<file name="zombie.xml" url="https://raw.githubusercontent.com/axel669/the-bois-suppliment/live/zombie.xml" />
+	</files>
+</index>

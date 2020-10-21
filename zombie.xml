@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zombie2</name>
+        <update version="0.1.0">
+            <file name="race-halfelf.xml" url="https://raw.githubusercontent.com/axel669/the-bois-suppliment/live/zombie.xml" />
+        </update>
+	</info>
+	<element name="Zombie" type="Race" source="Dungeon Master's Guide" id="ID_RACE_ZOMBIE">
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="20" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_ZOMBIE_IMMUNITY" />
+			<grant type="Racial Trait" id="ID_ZOMBIE_SPEECHLESS" />
+			<grant type="Racial Trait" id="ID_ZOMBIE_UNDEAD_FORTITUDE" />
+			<grant type="Racial Trait" id="ID_ZOMBIE_UNDEAD_NATURE" />
+            <select type="Ability Score Improvement" name="Racial +1 Stat Bonus" supports="ID_RACE_ASI_STRENGTH_1|ID_RACE_ASI_DEXTERITY_1|ID_RACE_ASI_CONSTITUTION_1|ID_RACE_ASI_INTELLIGENCE_1|ID_RACE_ASI_WISDOM_1|ID_RACE_ASI_CHARISMA_1" />
+            <select type="Ability Score Improvement" name="Racial +2 Stat Bonus" supports="ID_RACE_ASI_STRENGTH_2|ID_RACE_ASI_DEXTERITY_2|ID_RACE_ASI_CONSTITUTION_2|ID_RACE_ASI_INTELLIGENCE_2|ID_RACE_ASI_WISDOM_2|ID_RACE_ASI_CHARISMA_2" />
+		</rules>
+	</element>
+
+	<element name="Zombie Immunity" type="Racial Trait" source="Dungeon Master's Guide" id="ID_ZOMBIE_IMMUNITY">
+		<description>
+			You are immune to poison damage and the poisoned condition.
+		</description>
+		<sheet>
+			<description>
+				You are immune to poison damage and the poisoned condition.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+		</rules>
+	</element>
+
+	<element name="Speechless" type="Racial Trait" source="Dungeon Master's Guide" id="ID_ZOMBIE_SPEECHLESS">
+		<description>
+			You are able to understand all languages you knew in life but are unable to speak.
+		</description>
+		<sheet>
+			<description>
+				You are able to understand all languages you knew in life but are unable to speak.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Undead Fortitude" type="Racial Trait" source="Dungeon Master's Guide" id="ID_ZOMBIE_UNDEAD_FORTITUDE">
+		<description>
+			If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
+		</description>
+		<sheet>
+			<description>
+				If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Undead Nature" type="Racial Trait" source="Dungeon Master's Guide" id="ID_ZOMBIE_UNDEAD_NATURE">
+		<description>
+			A zombie doesn't require air, food, drink, or sleep.
+		</description>
+		<sheet>
+			<description>
+				A zombie doesn't require air, food, drink, or sleep.
+			</description>
+		</sheet>
+	</element>
+</elements>

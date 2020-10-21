@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Tasha's</name>
+        <update version="0.1.0">
+            <file name="tashas.xml" url="https://raw.githubusercontent.com/axel669/the-bois-suppliment/live/tashas.xml" />
+        </update>
+	</info>
+    <element name="Strength +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_STRENGTH_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1" alt="Strength +1" />
+		</rules>
+	</element>
+
+	<element name="Dexterity +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_DEXTERITY_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1" alt="Dexterity +1" />
+		</rules>
+	</element>
+
+	<element name="Constitution +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_CONSTITUTION_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1" alt="Constitution +1" />
+		</rules>
+	</element>
+
+	<element name="Intelligence +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_INTELLIGENCE_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Intelligence increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1" alt="Intelligence +1" />
+		</rules>
+	</element>
+
+	<element name="Wisdom +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_WISDOM_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Wisdom increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1" alt="Wisdom +1" />
+		</rules>
+	</element>
+
+	<element name="Charisma +1" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_CHARISMA_1">
+		<compendium display="false" />
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1" alt="Charisma +1" />
+		</rules>
+	</element>
+
+	<element name="Strength +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_STRENGTH_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Strength increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="2" alt="Strength +2" />
+		</rules>
+	</element>
+
+	<element name="Dexterity +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_DEXTERITY_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Dexterity increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="2" alt="Dexterity +2" />
+		</rules>
+	</element>
+
+	<element name="Constitution +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_CONSTITUTION_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Constitution increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="2" alt="Constitution +2" />
+		</rules>
+	</element>
+
+	<element name="Intelligence +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_INTELLIGENCE_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Intelligence increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="2" alt="Intelligence +2" />
+		</rules>
+	</element>
+
+	<element name="Wisdom +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_WISDOM_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Wisdom increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="2" alt="Wisdom +2" />
+		</rules>
+	</element>
+
+	<element name="Charisma +2" type="Ability Score Improvement" source="Player's Handbook" id="ID_RACE_ASI_CHARISMA_2">
+		<compendium display="false" />
+		<description>
+			<p>Your Charisma increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="2" alt="Charisma +2" />
+		</rules>
+	</element>
+</elements>
